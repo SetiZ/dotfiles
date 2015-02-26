@@ -1,0 +1,27 @@
+[user]
+	name = Sovannara Hak
+	email = hak.sovannara@gmail.com
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+
+[color]
+    ui = auto
+
+[alias]
+    s = status
+    c = commit
+    ca = commit --amend
+    l = log
+    b = branch
+    co = checkout
+
+[github]
+    user = sovannara-hak
+
+[url "git@github.com:sovannara-hak"]
+    pushInsteadOf = https://github.com/sovannara-hak/
+
+[url "git@github.com:ISIR-SYROCO"]
+    pushInsteadOf = https://github.com/sovannara-hak/
