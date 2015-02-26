@@ -12,6 +12,8 @@ for i in $dotfiles; do
     ln -sf .dotfiles/$fname $HOME/$fname
 done
 
+echo "Creating symbolic link: $HOME/.vim"
+ln -sf .dotfiles/vim-config $HOME/.vim
 echo "Creating symbolic link: $HOME/.vimrc"
 ln -sf .dotfiles/vim-config/_vimrc $HOME/.vimrc
 echo "Creating symbolic link: $HOME/.gvimrc"
