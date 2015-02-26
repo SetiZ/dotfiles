@@ -20,6 +20,9 @@
 [github]
     user = sovannara-hak
 
+[push]
+    simple
+
 [url "git@github.com:sovannara-hak"]
     pushInsteadOf = https://github.com/sovannara-hak/
 
