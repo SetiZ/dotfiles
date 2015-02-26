@@ -21,10 +21,10 @@
     user = sovannara-hak
 
 [push]
-    simple
+    default = simple
 
-[url "git@github.com:sovannara-hak"]
+[url "git@github.com:sovannara-hak/"]
     pushInsteadOf = https://github.com/sovannara-hak/
 
-[url "git@github.com:ISIR-SYROCO"]
-    pushInsteadOf = https://github.com/sovannara-hak/
+[url "git@github.com:ISIR-SYROCO/"]
+    pushInsteadOf = https://github.com/ISIR-SYROCO/
