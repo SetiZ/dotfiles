@@ -1,0 +1,12 @@
+# User specific aliases and functions
+
+export LD_LIBRARY_PATH="/usr/lib/i386-linux-gnu:/home/sovan/compil/julesverne/lib:$LD_LIBRARY_PATH:/usr/local/lib/"
+export PKG_CONFIG_PATH="/home/sovan/compil/julesverne/lib/pkgconfig:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PYTHONPATH="/home/sovan/compil/julesverne/lib/python2.7/site-packages:/home/sovan/compil/julesverne/lib/python2.7/dist-packages:$PYTHONPATH"
+export PATH="/home/sovan/compil/julesverne/bin:/home/sovan/compil/julesverne/sbin:$PATH"
+export OMNIORB_CONFIG="/home/sovan/omniORB/omniORB.cfg"
+export OMNINAMES_LOGDIR="/tmp/"
+export BOOST_ROOT="/home/sovan/compil/julesverne/include/"
+
+
+
