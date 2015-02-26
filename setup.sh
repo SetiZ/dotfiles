@@ -9,10 +9,10 @@ dotfiles=`find . -maxdepth 1 -type f -and -name '.*'`
 for i in $dotfiles; do
     fname=`basename $i`
     echo "Creating symbolic link: $HOME/$fname"
-    ln -sf $fname $HOME/$fname
+    ln -sf .dotfiles/$fname $HOME/$fname
 done
 
 echo "Creating symbolic link: $HOME/.vimrc"
-ln -sf vim-config/_vimrc $HOME/.vimrc
+ln -sf .dotfiles/vim-config/_vimrc $HOME/.vimrc
 echo "Creating symbolic link: $HOME/.gvimrc"
-ln -sf vim-config/_gvimrc $HOME/.gvimrc
+ln -sf .dotfiles/vim-config/_gvimrc $HOME/.gvimrc
