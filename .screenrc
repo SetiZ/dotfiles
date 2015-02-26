@@ -1,0 +1,4 @@
+startup_message off
+vbell off
+hardstatus on
+hardstatus alwayslastline "%{=}$LOGNAME@%H %-w%{+b g}[%n %t]%{-b w}%{-b w} %=%c"
