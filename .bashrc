@@ -16,6 +16,8 @@ alias mpv="mpv --vo=vdpau --hwdec=vdpau"
 alias vinyl='pactl load-module module-loopback'
 #alias vlc='/home/sovan/src/vlc-2.0.0/vlc'
 alias gvim="gvim 2>/dev/null"
+alias vboxmod="sudo modprobe vboxdrv"
+alias nextreboot="bash ~/.dotfiles/reboot.sh"
 
 #echo nest
 export ECHO_NEST_API_KEY="FG7MOXDVGZCOQIUJB"
@@ -29,6 +31,8 @@ export ECHO_NEST_API_KEY="FG7MOXDVGZCOQIUJB"
 # XDE
 #export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/sovan/compil/julesverne/xde/bin"
 #export RTT_COMPONENT_PATH=./ocl
+
+source .discogs
 
 source ~/.git-prompt.sh
 source ~/.git-completion.sh

@@ -18,3 +18,6 @@ echo "Creating symbolic link: $HOME/.vimrc"
 ln -sf .dotfiles/vim-config/_vimrc $HOME/.vimrc
 echo "Creating symbolic link: $HOME/.gvimrc"
 ln -sf .dotfiles/vim-config/_gvimrc $HOME/.gvimrc
+
+echo "Creating symbolic link: $HOME/.mpv"
+ln -sf .dotfiles/mpv $HOME/.mpv
