@@ -22,20 +22,8 @@ alias nextreboot="bash ~/.dotfiles/reboot.sh"
 #echo nest
 export ECHO_NEST_API_KEY="FG7MOXDVGZCOQIUJB"
 
-#source /opt/ros/diamondback/setup.bash
-#export ROS_ROOT="/opt/ros/diamondback/ros"
-#export PATH="/opt/ros/diamondback/ros/bin:$PATH"
-#export PYTHONPATH="/opt/ros/diamondback/ros/core/roslib/src:$PYTHONPATH"
-#export ROS_PACKAGE_PATH="/home/sovan/src/ros_workspace:/opt/ros/diamondback/stacks"
-
-# XDE
-#export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/sovan/compil/julesverne/xde/bin"
-#export RTT_COMPONENT_PATH=./ocl
-
-source .discogs
-
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
 export PS1='\u@\h:\w$(__git_ps1)\$ '
 
-source ~/.bash_julesverne
+source ~/.bash_chelseawolfe

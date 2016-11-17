@@ -1,0 +1,8 @@
+# User specific aliases and functions
+
+export LD_LIBRARY_PATH="/home/sovan/compil/chelseawolfe/lib:$LD_LIBRARY_PATH:/usr/local/lib/"
+export PKG_CONFIG_PATH="/home/sovan/compil/chelseawolfe/lib/pkgconfig:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PATH="/home/sovan/compil/chelseawolfe/bin:/home/sovan/compil/chelseawolfe/sbin:$PATH"
+
+
+
