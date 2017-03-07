@@ -1,9 +1,16 @@
 # dotfiles
 
+```
 cd ~
-
-git clone --recursive https://github.com/sovannara-hak/dotfiles .dotfiles
-
+```
+```
+git clone --recursive https://github.com/SetiZ/dotfiles .dotfiles
+```
+```
 cd .dotfiles
+```
+```
+source bootstrap.sh
+```
 
-sh bootstrap.sh
+inspired also by: https://github.com/mathiasbynens/dotfiles
