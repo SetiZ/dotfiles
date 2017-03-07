@@ -1,6 +1,6 @@
 [user]
-	name = Sovannara Hak
-	email = sovannara-hak@users.noreply.github.com
+	name = SetiZ
+	email = SetiZ@users.noreply.github.com
 
 [core]
     editor = vim
@@ -18,13 +18,10 @@
     co = checkout
 
 [github]
-    user = sovannara-hak
+    user = SetiZ
 
 [push]
     default = simple
 
-[url "git@github.com:sovannara-hak/"]
-    pushInsteadOf = https://github.com/sovannara-hak/
-
-[url "git@github.com:ISIR-SYROCO/"]
-    pushInsteadOf = https://github.com/ISIR-SYROCO/
+[url "git@github.com:SetiZ/"]
+    pushInsteadOf = https://github.com/SetiZ/

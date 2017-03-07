@@ -1,24 +1,14 @@
-*.o
+# Compiled Python files
+*.pyc
 
-*.a
+# Folder view configuration files
+.DS_Store
+Desktop.ini
 
-*.so
-*.so.*
+# Thumbnail cache files
+._*
+Thumbs.db
 
-*.out
-
-*.aux
-*.bbl
-*.dvi
-*.idx
-*.log
-*.toc
-*.py[cod]
-
-_build
-bin
-lib
-lib64
-
-*.swp
-*~
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
