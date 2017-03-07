@@ -10,4 +10,4 @@ git clone --recursive https://github.com/SetiZ/dotfiles .dotfiles
 cd .dotfiles && source bootstrap.sh
 ```
 
-inspired also by: https://github.com/mathiasbynens/dotfiles
+inspired by: https://github.com/mathiasbynens/dotfiles
